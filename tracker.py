@@ -67,6 +67,7 @@ while True:
             if delete_company == app["company"]:
                 found = True
                 applications.remove(app)
+                print("Application deleted.")
                 break
         if not found:
             print("Application not found.")
